@@ -1,0 +1,87 @@
+<template>
+<div>
+<div class ="recent">
+<h4>Featured Treks</h4>
+<p>Quickly build an effective pricing table for your potential customers 
+    with this layout. It's built with default Material-UI components with 
+                       little customization.</P>
+</div>
+<div class ="recent-item">
+    <span class="item-trek">4 Days hiking programme</span>
+    <span class="item-trek">06 November 2018</span>
+    
+    </div>
+    <div class="hiking">
+        <P> 4 Days hiking programme </p>
+        <button class="recent" type="button"><span class="recent">LEARN MORE</span></button>
+    </div>
+<div class="item">
+    <span class="trek">Hamta Circle trek</span>
+    <span class="trek">06 November 2018</span>
+</div>
+
+<div class="hiking1">
+    <p> Hamta Circle Trek </P>
+    <button class="recent" type="button"><span class="recent">LEARN MORE </span></button>
+</div>
+<button class="recent" type="button"><span class="recent">SHOW MORE </span></button>
+</div>
+</template>
+<script>
+
+export default {
+    name: 'Recent',
+    props: {
+        // name: String
+    },
+    data: function() {
+        return{
+        // name: 'treks'
+        }
+    }
+
+}
+</script>
+<style scoped>
+h4{
+    color: #f5004c;
+    margin-bottom: 0.35em;
+    text-align: center;
+    font-size: 3.75rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -0.00833em;
+}
+ .recent p{
+    margin: 0;
+    display: block;
+    font-size: 1.25rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.54);
+ }
+ .recent-item{
+     height: 100%;
+     display: flex;
+     max-width: 400px;
+     flex-direction: column;
+     overflow: hidden;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    background-color: #fff;
+ }
+ .item{
+       height: 100%;
+     display: flex;
+     max-width: 400px;
+     flex-direction: column;
+     overflow: hidden;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    background-color: #fff;
+ }
+ </style>
