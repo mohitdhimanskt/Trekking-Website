@@ -3,7 +3,7 @@
     <Heroslider></Heroslider> 
     <Services></Services>
     <Recent></Recent>
-    <Footer></Footer>
+
     
   </div>
 </template>
@@ -13,7 +13,7 @@
 import Heroslider from "@/components/Heroslider.vue";
 import Services from "@/components/Services.vue";
 import Recent from "@/components/Recent.vue";
-import Footer from "@/components/Footer.vue";
+
   
 export default {
   name: "Home",
@@ -21,7 +21,7 @@ export default {
     Heroslider,
     Services,
     Recent,
-    Footer,
+
   
   },
 };

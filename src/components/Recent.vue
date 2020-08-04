@@ -13,7 +13,7 @@
     </div>
     <div class="hiking">
         <P> 4 Days hiking programme </p>
-        <button class="recent" type="button"><span class="recent">LEARN MORE</span></button>
+      <router-link to="/button"> <button class="recent" type="button"><span class="recent">LEARN MORE</span></button></router-link>
     </div>
 <div class="item">
     <span class="trek">Hamta Circle trek</span>
@@ -22,9 +22,9 @@
 
 <div class="hiking1">
     <p> Hamta Circle Trek </P>
-    <button class="recent" type="button"><span class="recent">LEARN MORE </span></button>
+    <router-link to="/button"><button class="recent" type="button"><span class="recent">LEARN MORE </span></button></router-link>
 </div>
-<button class="recent" type="button"><span class="recent">SHOW MORE </span></button>
+<router-link to="/button"><button class="recent" type="button"><span class="recent">SHOW MORE </span></button></router-link>
 </div>
 </template>
 <script>
@@ -76,6 +76,26 @@ h4{
  }
  .item{
        height: 100%;
+     display: flex;
+     max-width: 400px;
+     flex-direction: column;
+     overflow: hidden;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    background-color: #fff;
+ }
+ .hiking{
+        height: 100%;
+     display: flex;
+     max-width: 400px;
+     flex-direction: column;
+     overflow: hidden;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    background-color: #fff;
+ }
+ .hiking1{
+        height: 100%;
      display: flex;
      max-width: 400px;
      flex-direction: column;

@@ -1,11 +1,13 @@
 <template>
   <div id="app">
         <Header title="This is a header"></Header>
+      
     <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
         
     </div> -->
+    <Footer title="links"></Footer>
     <router-view/>
     
   </div>
@@ -13,10 +15,12 @@
 
 <script>
 import Header from "@/components/Header.vue";
+import Footer from "@/components/Footer.vue";
 export default {
   name: 'App',
     components: {
-    Header
+    Header,
+    Footer
     }
 }
 </script>

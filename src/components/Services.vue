@@ -10,9 +10,9 @@
             
         </div>
         <div class="recent-item">
-            <button class="recent-item" type="button" v-for="item in servicesArr" :key="item">
+        <router-link to="/button"> <button class="recent-item" type="button" v-for="item in servicesArr" :key="item">
                 <span class="recent-tem">{{item}}</span>
-            </button>
+            </button> </router-link>
 
         </div>
     </div>
