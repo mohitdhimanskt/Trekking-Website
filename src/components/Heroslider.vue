@@ -1,3 +1,4 @@
+
 <template>
   <div>
     <div class="slider">
@@ -13,3 +14,20 @@ export default {
   name: "Heroslider",
 };
 </script>
+<style scoped>
+.slider{
+  color: #ffffff;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    background: url("https://www.wellnessonfire.com/wp-content/uploads/2015/12/mckaysavage497863693credit_mckaysavageprayer_flag_pole_with_lhotse_and_everestnepal.jpg");
+    min-height: 50vh;
+    font-family: Rubik, sans-serif;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+
+
+}
+</style>
