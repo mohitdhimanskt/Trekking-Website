@@ -7,8 +7,8 @@
                        little customization.</P>
 </div>
 <div class ="recent-item">
-    <span class="item-trek">4 Days hiking programme</span>
-    <span class="item-trek">06 November 2018</span>
+    <router-link to="/button">  <span class="item-trek">4 Days hiking programme</span>
+    <span class="item-trek">06 November 2018</span></router-link>
     
     </div>
     <div class="hiking">
@@ -16,8 +16,8 @@
       <router-link to="/button"> <button class="recent" type="button"><span class="recent">LEARN MORE</span></button></router-link>
     </div>
 <div class="item">
-    <span class="trek">Hamta Circle trek</span>
-    <span class="trek">06 November 2018</span>
+    <router-link to="/button">  <span class="trek">Hamta Circle trek</span>
+    <span class="trek">06 November 2018</span></router-link>
 </div>
 
 <div class="hiking1">

@@ -40,7 +40,7 @@ h5 {
   margin: 10px 1289px 0px 10px;
 }
 .header-btn {
-  width: 180%;
+  width: 100%;
   display: inherit;
   align-items: inherit;
   justify-content: inherit;
@@ -70,3 +70,6 @@ img {
   object-fit: cover;
 }
 </style>
+
+
+
