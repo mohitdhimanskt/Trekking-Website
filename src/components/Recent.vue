@@ -2,8 +2,8 @@
 <div>
 <div class ="recent">
 <h4>Featured Treks</h4>
-<p>Quickly build an effective pricing table for your potential customers 
-    with this layout. It's built with default Material-UI components with 
+<p>Quickly build an effective pricing table for your potential customers<br>
+    with this layout. It's built with default Material-UI components with<br> 
                        little customization.</P>
 </div>
 <div class ="recent-item">

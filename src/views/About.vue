@@ -22,3 +22,13 @@
  The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
   </div>
 </template>
+<style scoped>
+p{
+      display: flex;
+    padding: 0px 24px 24px;
+    margin-top: 16px;
+    align-items: center;
+    flex-direction: column;
+
+}
+</style>
