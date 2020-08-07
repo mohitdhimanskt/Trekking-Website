@@ -17,7 +17,7 @@
       <a href="https://www.youtube.com" target="_blank">
         <i class="fa fa-youtube" aria-hidden="true"></i>
       </a>
-      <a href="#" class="fa fa-facebook"></a>
+      
     </div>
     <div class="links6">
       <ul>

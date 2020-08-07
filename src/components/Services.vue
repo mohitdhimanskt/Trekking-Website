@@ -33,36 +33,37 @@ export default {
           name: "Trekking (backpacking)",
           url: "https://di-uploads-pod5.dealerinspire.com/triplejsaipan/uploads/2019/03/Three-People-Hiking-Up-Mountain_24359265.jpg",
           path: 'trekking'
+          
         },
         {
           name: "Mountain Biking",
           url: "https://bikefeatures.com/wp-content/uploads/2018/07/Best-Mountain-Bikes-Under-1000.jpg",
-          path:'moutain biking'
+          path:'moutainbiking'
         },
         {
           name: "Local Sight Seeing",
           url: "https://assets.traveltriangle.com/blog/wp-content/uploads/2016/02/manali-river-beas.jpg",
-          path: 'local sight seeing'
+          path: 'localsightseeing'
         },
         {
           name: "Jeep Safari",
           url: "https://www.picnicwale.com/assets/adventure/manali-jeep-safari-season.jpg",
-          path: 'jeep safari'
+          path: 'jeepsafari'
         },
         {
           name: "Expedition Climbing",
           url: "https://www.alpineinstitute.com/media/274036/denali_expedition_climbing_summit_ridge.jpg",
-          path: 'expedition climbing'
+          path: 'expeditionclimbing'
         },
         {
           name: "Family Trips",
           url: "https://i.pinimg.com/736x/24/61/03/246103a96862eeab2dc50a74a7de8cac.jpg",
-          path: 'family trips'
+          path: 'familytrips'
         },
         {
           name: "Day Hikes",
           url: "https://img.traveltriangle.com/blog/wp-content/uploads/2019/04/Trekking-In-Himachal-Pradesh-cover.jpg",
-          path: 'day hikes'
+          path: 'dayhikes'
         },
         {
           name: "Canyoning",
@@ -75,7 +76,7 @@ export default {
           path: 'cycling'
         },
       ],
-    };
+     };
   },
 };
 </script>

@@ -32,3 +32,12 @@
     </form>
   </div>
 </template>
+<style scoped>
+form{
+      display: flex;
+    padding: 16px 24px 24px;
+    margin-top: 64px;
+    align-items: center;
+    flex-direction: column;
+}
+</style>
