@@ -9,8 +9,8 @@
       </p>
     </div>
     <div class="recent-item">
-       <router-link v-for="item in servicesArr" :key="item.name"  :to="item.path">
-        <button class="recent-item" type="button"  v-bind:style='{ backgroundImage: "url(" + item.url + ")", }'>
+       <router-link  v-for="item in servicesArr" :key="item.name"  :to="item.path">
+        <button class="recent-item " type="button"  v-bind:style='{ backgroundImage: "url(" + item.url + ")", }'>
           <span class="recent-item">{{item.name}}</span>
         </button>
      </router-link> 

@@ -1,7 +1,8 @@
 <template>
-  <div class="about">
-    <h1>About Us</h1>
-    
+  <div class="flex flex-col items-center mx-12">
+    <h1 class="text-lg text-red-400">About Us</h1>
+  
+
  <P>
  What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
   scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with 
@@ -22,13 +23,3 @@
  The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
   </div>
 </template>
-<style scoped>
-p{
-      display: flex;
-    padding: 0px 24px 24px;
-    margin-top: 16px;
-    align-items: center;
-    flex-direction: column;
-
-}
-</style>
