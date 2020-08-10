@@ -1,7 +1,8 @@
 
 <template>
   <div>
-    <div class="slider" >
+    <div class="slider">
+    <!-- <div class=".flex bg-white-800 w-100 min-h-full" style="background-image: url(https://www.wellnessonfire.com/wp-content/uploads/2015/12/mckaysavage497863693credit_mckaysavageprayer_flag_pole_with_lhotse_and_everestnepal.jpg)"> -->
       <h3>Experience The Best of Himalayas</h3>
       <h3>We provide Best Guidance</h3>
       <h3>Your travel partner in Himalayas</h3>
@@ -21,8 +22,8 @@ export default {
   color: #ffffff;
   width: 100%;
   margin: auto;
-  display: flex;
-  background: url("https://www.wellnessonfire.com/wp-content/uploads/2015/12/mckaysavage497863693credit_mckaysavageprayer_flag_pole_with_lhotse_and_everestnepal.jpg");
+   display: flex;
+   background: url("https://www.wellnessonfire.com/wp-content/uploads/2015/12/mckaysavage497863693credit_mckaysavageprayer_flag_pole_with_lhotse_and_everestnepal.jpg");
   min-height: 50vh;
   font-family: Rubik, sans-serif;
   align-items: center;
