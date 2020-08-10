@@ -1,8 +1,8 @@
 <template>
 <div>
 <div class ="recent">
-<h4>Featured Treks</h4>
-<p>Quickly build an effective pricing table for your potential customers<br>
+<h4 class="text-center text-red-600 text-xs sm:text-sm md:text-base  lg:text-lg">Featured Treks</h4>
+<p class="mt-2 text-lg text-gray-600">Quickly build an effective pricing table for your potential customers<br>
     with this layout. It's built with default Material-UI components with<br> 
                        little customization.</P>
 </div>
@@ -24,7 +24,7 @@
     <p> Hamta Circle Trek </P>
     <router-link to="/button"><button class="recent" type="button"><span class="recent">LEARN MORE </span></button></router-link>
 </div>
-<router-link to="/button"><button class="recent" type="button"><span class="recent">SHOW MORE </span></button></router-link>
+<router-link to="/button"><button class="bg-purple-500 hover:bg-blue-600 text-black font-bold py-2 px-4 rounded" type="button"><span class="recent">SHOW MORE </span></button></router-link>
 </div>
 </template>
 <script>
@@ -43,7 +43,7 @@ export default {
 }
 </script>
 <style scoped>
-h4{
+/* h4{
     color: #f5004c;
     margin-bottom: 0.35em;
     text-align: center;
@@ -52,8 +52,8 @@ h4{
     font-weight: 300;
     line-height: 1;
     letter-spacing: -0.00833em;
-}
- .recent p{
+} */
+ /* .recent p{
     margin: 0;
     display: block;
     font-size: 1.25rem;
@@ -63,7 +63,7 @@ h4{
     letter-spacing: 0.0075em;
     text-align: center;
     color: rgba(0, 0, 0, 0.54);
- }
+ } */
  .recent-item{
      height: 100%;
      display: flex;

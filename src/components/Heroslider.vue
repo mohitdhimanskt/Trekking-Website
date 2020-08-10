@@ -1,11 +1,11 @@
 
 <template>
   <div>
-    <div class="slider">
+    <div class="slider" >
       <h3>Experience The Best of Himalayas</h3>
       <h3>We provide Best Guidance</h3>
       <h3>Your travel partner in Himalayas</h3>
-      <p>Praesent sit amet fermentum ipsum. Cras dictum ante nec metus pretium, <br>
+      <p class="mt-2 text-lg text-white-600">Praesent sit amet fermentum ipsum. Cras dictum ante nec metus pretium, <br>
       placerat hendrerit ex facilisis. Ut sed neque sem. Ut ipsum dolor, dapibus et<br>
                  imperdiet nec, ultricies non metus.</p>
     </div>
@@ -30,7 +30,7 @@ export default {
   background-size: cover;
   justify-content: center;
 }
-p{
+/* p{
   color: rgba(0, 0, 0, 0.54);
   text-align: center;
   font-size: 1.25rem;
@@ -42,5 +42,5 @@ p{
   letter-spacing: 0.0075em;
   margin-bottom: 16px;
   color: #fff;
-}
+} */
 </style>
