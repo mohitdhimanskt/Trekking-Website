@@ -43,27 +43,7 @@ export default {
 }
 </script>
 <style scoped>
-/* h4{
-    color: #f5004c;
-    margin-bottom: 0.35em;
-    text-align: center;
-    font-size: 3.75rem;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-weight: 300;
-    line-height: 1;
-    letter-spacing: -0.00833em;
-} */
- /* .recent p{
-    margin: 0;
-    display: block;
-    font-size: 1.25rem;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-weight: 500;
-    line-height: 1.6;
-    letter-spacing: 0.0075em;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.54);
- } */
+
  .recent-item{
      height: 100%;
      display: flex;
