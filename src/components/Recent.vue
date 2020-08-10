@@ -6,23 +6,25 @@
     with this layout. It's built with default Material-UI components with<br> 
                        little customization.</P>
 </div>
-<div class ="recent-item">
+<div class="flex flex-col mx-4 items-center bg-white-200 px-4 py-40 rounded-tb rounded-lr border-solid border-4 border-gray-400">
+<div class="flex flex-col bg-white sm h-20 text-left overflow-hidden  ">
     <router-link to="/button">  <span class="item-trek">4 Days hiking programme</span>
     <span class="item-trek">06 November 2018</span></router-link>
     
     </div>
-    <div class="hiking">
+    <div class="flex flex-col bg-white sm h-full text-left overflow-hidden">
         <P> 4 Days hiking programme </p>
       <router-link to="/button"> <button class="recent" type="button"><span class="recent">LEARN MORE</span></button></router-link>
     </div>
-<div class="item">
+<div class="flex flex-col bg-white sm h-20 overflow-hidden mx-8 my-2">
     <router-link to="/button">  <span class="trek">Hamta Circle trek</span>
     <span class="trek">06 November 2018</span></router-link>
 </div>
 
-<div class="hiking1">
+<div class="flex flex-col bg-white sm h-full overflow-hidden  text-right mx-4">
     <p> Hamta Circle Trek </P>
     <router-link to="/button"><button class="recent" type="button"><span class="recent">LEARN MORE </span></button></router-link>
+</div>
 </div>
 <router-link to="/button"><button class="bg-purple-500 hover:bg-blue-600 text-black font-bold py-2 px-4 rounded" type="button"><span class="recent">SHOW MORE </span></button></router-link>
 </div>
@@ -42,46 +44,3 @@ export default {
 
 }
 </script>
-<style scoped>
-
- .recent-item{
-     height: 100%;
-     display: flex;
-     max-width: 400px;
-     flex-direction: column;
-     overflow: hidden;
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    background-color: #fff;
- }
- .item{
-       height: 100%;
-     display: flex;
-     max-width: 400px;
-     flex-direction: column;
-     overflow: hidden;
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    background-color: #fff;
- }
- .hiking{
-        height: 100%;
-     display: flex;
-     max-width: 400px;
-     flex-direction: column;
-     overflow: hidden;
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    background-color: #fff;
- }
- .hiking1{
-        height: 100%;
-     display: flex;
-     max-width: 400px;
-     flex-direction: column;
-     overflow: hidden;
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    background-color: #fff;
- }
- </style>

@@ -31,17 +31,5 @@ export default {
   background-size: cover;
   justify-content: center;
 }
-/* p{
-  color: rgba(0, 0, 0, 0.54);
-  text-align: center;
-  font-size: 1.25rem;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-weight: 500;
-  margin: 0;
-  display: block;
-  line-height: 1.6;
-  letter-spacing: 0.0075em;
-  margin-bottom: 16px;
-  color: #fff;
-} */
+
 </style>

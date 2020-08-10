@@ -8,7 +8,7 @@
         little customization.
       </p>
     </div>
-    <div class="recent-item">
+    <div class=" initial text-black relative m-0 p-0 b-0 outline-none cursor-pointer h-64 w-48">
        <router-link  v-for="item in servicesArr" :key="item.name"  :to="item.path">
         <button class="recent-item" type="button"  v-bind:style='{ backgroundImage: "url(" + item.url + ")", }'>
           <span class="recent-item">{{item.name}}</span>
@@ -81,50 +81,20 @@ export default {
 };
 </script>
 <style scoped>
-/* h2 {
-  color: #f5004c;
-  text-align: center;
-  margin-bottom: 0.35em;
-  font-size: 3.75rem;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -0.00833em;
-} */
-/* P {
-  color: rgba(0, 0, 0, 0.54);
-  text-align: center;
-  font-size: 1.25rem;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-weight: 500;
-  margin: 0;
-  display: block;
-  line-height: 1.6;
-  letter-spacing: 0.0075em;
-  margin-bottom: 16px;
-} */
+
 
 .recent-item {
-  width: 30%;
+  /* width: 30%;
   height: 300px;
-  position: relative;
+  position: relative; */
 
-  color:black;
+  /* color:black;
   border: 0;
   margin: 0;
   cursor: pointer;
   display: initial;
   outline: none;
-  padding: 0;
-/* 
-  align-items: center;
-  user-select: none;
-  border-radius: 0;
-  vertical-align: middle;
-  justify-content: center;
+  padding: 0; */
 
-  text-decoration: none;
-
-  -webkit-tap-highlight-color: transparent; */
 }
 </style>
