@@ -8,9 +8,9 @@
         little customization.
       </p>
     </div>
-    <div class=" initial text-black relative m-0 p-0 b-0 outline-none cursor-pointer h-64 w-48">
+    <div class="recent-item">
        <router-link  v-for="item in servicesArr" :key="item.name"  :to="item.path">
-        <button class="recent-item" type="button"  v-bind:style='{ backgroundImage: "url(" + item.url + ")", }'>
+        <button class="initial relative text-black  b-0 p-0 cursor-pointer outline-none w-1/3 h-64" type="button"  v-bind:style='{ backgroundImage: "url(" + item.url + ")", }'>
           <span class="recent-item">{{item.name}}</span>
         </button>
      </router-link> 
@@ -80,21 +80,3 @@ export default {
   },
 };
 </script>
-<style scoped>
-
-
-.recent-item {
-  /* width: 30%;
-  height: 300px;
-  position: relative; */
-
-  /* color:black;
-  border: 0;
-  margin: 0;
-  cursor: pointer;
-  display: initial;
-  outline: none;
-  padding: 0; */
-
-}
-</style>
