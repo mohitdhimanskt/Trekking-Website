@@ -1,6 +1,6 @@
 <template>
   <div id="footer">
-    <div class=" my-6 bg-gray-800 text-white">
+    <div class="my-6 bg-gray-800 text-white">
       <h5 class="w-100 mx-12 flex flex-wrap box-border">Far Out Himalayas</h5>
       <h5 class="w-100 mx-12 flex flex-wrap box-border">1235 University Boulevard</h5>
       <h5 class="w-100 mx-12 flex flex-wrap box-border">Steubenville, Ohio</h5>
@@ -42,23 +42,9 @@ export default {
 //  }
 </script>
 <style scoped>
-/* h5 {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-} */
-/* li {
-  list-style-type: none;
-  color: #fff;
-} */
 .links6 {
   text-align: end;
   margin-right: 70px;
   margin-top: -141px;
 }
-/* .links {
-  background-color: dimgray;
-  color: #fff;
-} */
 </style>

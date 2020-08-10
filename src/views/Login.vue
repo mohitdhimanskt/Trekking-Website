@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <h4>Login</h4>
-    <form>
+    <form class="flex flex-col items-center mx-10">
       <label class="test" for="email">
         Email Address
         <span class="test"></span>
@@ -32,12 +32,3 @@
     </form>
   </div>
 </template>
-<style scoped>
-form{
-      display: flex;
-    padding: 16px 24px 24px;
-    margin-top: 64px;
-    align-items: center;
-    flex-direction: column;
-}
-</style>
